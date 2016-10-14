@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'CYKitPod_Example' do
+  pod 'CYKitPod', :path => '../'
+
+  target 'CYKitPod_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end

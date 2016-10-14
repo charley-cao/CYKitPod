@@ -1,0 +1,6 @@
+framework module CYKitPod {
+  umbrella header "CYKitPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
