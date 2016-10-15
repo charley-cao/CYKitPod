@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/charley-cao/CYKitPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = 'MIT'
   s.author           = { 'charley-cao' => 'geek.jery@outlook.com' }
   s.source           = { :git => 'https://github.com/charley-cao/CYKitPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
@@ -31,12 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CYKitPod/Classes/**/*'
-  
+  s.requires_arc = true
   s.resource_bundles = {
    'CYKitPod' => ['CYKitPod/Assets/*.png']
   }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking'
 end
