@@ -21,13 +21,10 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YohunlUtilsPod (1.0.0):
-    - AFNetworking
 
 DEPENDENCIES:
   - CYKitPod (from `../`)
   - FBSnapshotTestCase
-  - YohunlUtilsPod
 
 EXTERNAL SOURCES:
   CYKitPod:
@@ -37,8 +34,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   CYKitPod: 1f814310006c1cb6004fa417f3183d76104d0479
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YohunlUtilsPod: c5427a28b30f248a45e5166845e3fd22c7865dc5
 
-PODFILE CHECKSUM: a35c173293a2de30def94d05fcc832afb6fc0edc
+PODFILE CHECKSUM: 46ff586e1eb9d15178ea03a878a3f7468372a46f
 
 COCOAPODS: 1.0.1
