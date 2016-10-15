@@ -84,8 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
   install_framework "$BUILT_PRODUCTS_DIR/CYKitPod/CYKitPod.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/YohunlUtilsPod/YohunlUtilsPod.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
   install_framework "$BUILT_PRODUCTS_DIR/CYKitPod/CYKitPod.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/YohunlUtilsPod/YohunlUtilsPod.framework"
 fi

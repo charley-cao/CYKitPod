@@ -1,22 +1,44 @@
 PODS:
-  - CYKitPod (0.1.0)
-  - Expecta (1.0.5)
-  - Specta (1.0.5)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CYKitPod (1.0.0):
+    - AFNetworking
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YohunlUtilsPod (1.0.0):
+    - AFNetworking
 
 DEPENDENCIES:
   - CYKitPod (from `../`)
-  - Expecta
-  - Specta
+  - FBSnapshotTestCase
+  - YohunlUtilsPod
 
 EXTERNAL SOURCES:
   CYKitPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CYKitPod: ed91610e74377a64f5ffed9b461764a631c7b008
-  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CYKitPod: 1f814310006c1cb6004fa417f3183d76104d0479
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YohunlUtilsPod: c5427a28b30f248a45e5166845e3fd22c7865dc5
 
-PODFILE CHECKSUM: 44d7158ff077d6021adca534223f6652bfe38141
+PODFILE CHECKSUM: a35c173293a2de30def94d05fcc832afb6fc0edc
 
 COCOAPODS: 1.0.1
